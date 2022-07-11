@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="/css/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <!-- <a href="/app/inicio.html"><i class="material-icons">reply</i></a> -->
+        <div class="title">
+            <h1>Evillyn Naiane Ternopilski</h1>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo-main">
+            <div class="botao-modal">
+                <button class="botao" onclick="abrirModal();">Clique aqui</button>
+            </div>
+            <div id="fundo"></div>
+            <div id="modal">
+                <figure>
+                    <img class="imagem" src="/img/robo2.gif" alt="robo">
+                </figure>
+                <button id="fechar-modal" class="botao" onclick="fecharModal()">fechar
+                </button>
+                <button class="balao" type="button" onmouseover="showMessage()" onmouseout="hideMessage()">
+                    <div class="mensagem">Olá, seja bem vindo(a)!</div>
+                </button>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <a href="../app/apresentacao.html" class="gallery-items">
+                <img class="imagem" src="/img/apresentacao.png" alt="apresentacao">
+            </a>
+            <a href="app/escolaridade.html" class="gallery-items">
+                <img class="imagem" src="/img/escolaridade.png" alt="escolaridade">
+            </a>
+            <a href="app/experiencia.html" class="gallery-items">
+                <img class="imagem" src="/img/experiencia.png" alt="experiencia">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; |Evillyn Naiane</p>
+    </footer>
+    <script src="/script/index.js"></script>
+</body>
+
+</html>
